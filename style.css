@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+body{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(222, 222, 222);
+    color: rgb(31, 31, 31);
+}
+.container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction:row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100vw;
+    align-items: stretch;
+    padding: 10px;
+    max-height: 100vh;
+    overflow: hidden;
+    
+}
+
+h1{
+    font-family: 'Koulen', cursive;
+}
+p{
+    max-width: 20ch;
+    padding-left: 10px;
+    padding-right: 0;
+    font-size: 12px;
+}
+.section1{
+   width: 20%;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -webkit-flex-direction:column;
+   -ms-flex-direction: column;
+   flex-direction: column;
+}
+
+.section2{
+    width: 60%;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+h2{
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+}
+strong{
+    font-size: 100px;
+    
+  background-image:url("https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif");
+  background-size: contain;
+  background-position: top left;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+i{
+    
+}
+
+.section3{
+   width: 20%;
+   align-items: flex-end;
+   justify-content: flex-end;
+   align-items: stretch;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -webkit-flex-direction:column;
+   -ms-flex-direction: column;
+   flex-direction: column;
+
+}
+.section3 > p{
+text-align: left;
+min-width: 18vw;
+max-width: 20%;
+padding: 10x;
+}
